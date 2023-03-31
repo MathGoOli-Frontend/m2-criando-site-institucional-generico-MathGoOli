@@ -13,29 +13,29 @@
     <link rel="stylesheet" href="./src/styles/style.css">
 </head>
 <body>
-    <header class="header_container">
-        <p class="header_logo">Generic Course</p>
+    <header class="header__container">
+        <p class="header__logo">Generic Course</p>
         <button id="btnSubmit" class="btn">Entrar para a próxima turma</button>
     </header>
     <main>
-        <div class="deal-container">
-            <h1 class="deal-title">Desenvolvendo <span>suas</span> próximas habilidades</h1>
-            <p class="deal-subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos autem fuga accusantium sunt ratione pariatur eius laborum exercitationem accusamus illum laudantium, similique dolor, suscipit iste! Mollitia iure temporibus nam eligendi!</p>
-            <span class="deal-about btn">Sobre nós</span>
+        <div class="deal__container">
+            <h1 class="deal__title">Desenvolvendo <span>suas</span> próximas habilidades</h1>
+            <p class="deal__subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos autem fuga accusantium sunt ratione pariatur eius laborum exercitationem accusamus illum laudantium, similique dolor, suscipit iste! Mollitia iure temporibus nam eligendi!</p>
+            <span class="deal__about btn">Sobre nós</span>
         </div>
-        <div class="about-container">
-            <h2 class="about-title">Quem somos nós?</h2>
-            <span class="about-text">
+        <div class="about__container">
+            <h2 class="about__title">Quem somos nós?</h2>
+            <span class="about__text">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, aut, quos consequatur nemo error deserunt iste, fugit natus ipsum enim voluptatibus dolorem ea ab sint accusamus quas? Facilis, maiores in.</p>
             </span>            
         </div>
-        <section class="questions_container">
+        <section class="questions__container">
             <div>
                 <h2>Dúvidas frequentes</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor dolorem veritatis veniam fuga. Itaque error quae et magni maxime ab quibusdam enim, animi dicta. Illo odio eum ex quo at?</p>
                 <span class="btn btn_span">Entrar para próxima turma</span>
             </div>
-            <div class="questions_list">
+            <div class="questions__list">
                 <span>
                     <h3>Quanto custa o curso?</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, assumenda. Nulla vero accusamus officia laborum quis soluta deleniti culpa obcaecati dignissimos eos! Cupiditate quaerat minima magnam beatae, facilis modi rem!</p>
@@ -55,19 +55,19 @@
             </div>
         </section>
         <section class="testimony">
-            <div class="testimony_left">
-                <ul class="testimony_ul">
-                    <li class="testimony_li">
-                        <div class="testimony_container">
-                            <span class="testimony_name">
+            <div class="testimony__left">
+                <ul class="testimony__ul">
+                    <li class="testimony__li">
+                        <div class="testimony__container">
+                            <span class="testimony__name">
                                 <h3>Júlia Lima</h3>
                                 <p>Aluna na turma 2019</p>
                             </span>
-                            <p class="testimony_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A veritatis nisi distinctio eaque, dignissimos deleniti nesciunt molestiae incidunt ex id corporis saepe dolore et culpa, consequuntur sequi. Aspernatur, similique sit.</p>
+                            <p class="testimony__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A veritatis nisi distinctio eaque, dignissimos deleniti nesciunt molestiae incidunt ex id corporis saepe dolore et culpa, consequuntur sequi. Aspernatur, similique sit.</p>
                         </div>
                     </li>
-                    <li class="testimony_li">
-                        <div class="testimony_container">
+                    <li class="testimony__li">
+                        <div class="testimony__container">
                             <span>
                                 <h3>Carlos Silva</h3>
                                 <p>Aluno na turma 2020</p>
@@ -75,8 +75,8 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maxime dolores vitae adipisci repudiandae ipsa cumque sint nemo qui mollitia consequatur quo numquam, animi deserunt placeat. Minima veritatis deleniti velit.</p>
                         </div>
                     </li>
-                    <li class="testimony_li">
-                        <div class="testimony_container">
+                    <li class="testimony__li">
+                        <div class="testimony__container">
                             <span>
                                 <h3>Camila Souza</h3>
                                 <p>Aluna na turma 2019</p>
@@ -84,8 +84,8 @@
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, a veritatis, nostrum culpa accusantium libero deserunt quasi sit quaerat doloribus commodi dolor accusamus deleniti aperiam eius! Neque doloribus esse alias.</p>
                         </div>
                     </li>
-                    <li class="testimony_li">
-                        <div class="testimony_container">
+                    <li class="testimony__li">
+                        <div class="testimony__container">
                             <span>
                                 <h3>Matheus Erick</h3>
                                 <p>Aluno na turma 2018</p>
@@ -95,8 +95,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="testimony_right">
-                <div class="testimony_right_div">
+            <div class="testimony__right">
+                <div class="testimony__right_div">
                     <h2>O que nossos alunos comentam?</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, dolorum sint. Deleniti, hic repellendus incidunt distinctio voluptatem eius, consequuntur eligendi ipsa laborum animi rem ipsum aspernatur dolorem consequatur nobis sed!</p>
                 </div>
@@ -110,8 +110,14 @@
             <div class="modal__header">
                 <span>Cadastro</span>
                 <button class="modal__close">x</button>
-
             </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur eligendi commodi sint enim, dolore velit voluptatum, quae provident dolorem hic ex, repellat esse accusamus excepturi rem vitae non accusantium quibusdam.</p>
+
+            <form class="modal__form" action="">
+                <input name="email" type="text" placeholder="Digitar email" required>
+                <button class="btn" type="submit">Entrar na lista para próxima turma</button>
+            </form>
+
         </div>
     </dialog>
 

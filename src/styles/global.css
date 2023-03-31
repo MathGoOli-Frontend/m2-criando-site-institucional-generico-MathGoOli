@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+    /* Grey Colors no figma*/
+    --primary-color-1: #191c1f;
+    --primary-color-2: #212529;
+    --primary-color-3: #343a40;
+
+    --secondary-color-1: #adb5bd;
+    --secondary-color-2: #ced4da;
+    --secondary-color-3: #f8f9fa;
+
+    /* Brand Colors */
+    --brand-color-1: #4c6ef5;
+    --brand-color-2: #364fc7;
+
+
+    /* Font Settings */
+    --font-family-1: Inter;
+
+    /* font:        font- | font-| font-|font-size/ |font-family|  */
+    /*              style | vari | wei  |line-height|           |  */
+    /*                    |  ant | ght  |           |           |  */    
+    --font-title-1: normal  normal 600    52px/72px   Inter;
+    --font-title-2: normal  normal 600    40px/64px   Inter;
+    --font-title-3: normal  normal 400    32px/44px   Inter;
+    --font-text-1:  normal  normal 400    28px/44px   Inter;
+    --font-text-2:  normal  normal 400    20px/30px   Inter;
+    --font-text-3:  normal  normal 400    18px/27px   Inter;
+    --font-text-4:  normal  normal 400    16px/27px   Inter;
+    --font-text-5:  normal  normal 400    14px/27px   Inter;
+    --font-text-6:  normal  normal 400    12px/27px   Inter;
+}

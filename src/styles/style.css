@@ -32,7 +32,7 @@ body{
     font: var(--font-text-2);
 }
 
-header button{
+.header__button{
     width: 300px;
     height: 40px;
     
@@ -70,6 +70,7 @@ header button{
     font: var(--font-text-3);
     color: var(--secondary-color-1);
     align-self: center;
+    text-align: center;
 
 }
 
@@ -112,7 +113,7 @@ header button{
     justify-content: space-evenly;
 }
 
-.questions__container div{
+.questions__left,.questions__list{
     width: 40vw;
     display: flex;
     flex-direction: column;
@@ -136,18 +137,18 @@ header button{
     font: var(--font-text-6);
     text-align: center;
 }
-.questions__list span{
+.questions__item{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.questions__list h3{
+.questions__quest{
     font: var(--font-title-3);
     
 }
 
-.questions__list p {
+.questions__answer {
     font: var(--font-text-4);
 }
 
@@ -199,7 +200,7 @@ header button{
     width: 50vw;
 }
 
-.testimony__right_div{
+.testimony__rightDiv{
     background-color: var(--brand-color-1);
     width: 300px;
     height: 300px;
@@ -212,11 +213,11 @@ header button{
     
 }
 
-.testimony__right h2{
+.testimony__question{
     text-align: center;
     font: var(--font-text-1);
 }
-.testimony__right p{
+.testimony__answer{
     font: var(--font-text-4);
 }
 
